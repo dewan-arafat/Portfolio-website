@@ -1,9 +1,39 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
-h1{
+
+h1 {
     font-size: 50px;
 }
-.name-colour{
+
+.name-colour {
     color: rgb(243, 32, 32);
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: rgb(0, 225, 255);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.top-banner {
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
 }
