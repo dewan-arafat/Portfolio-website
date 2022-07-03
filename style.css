@@ -19,7 +19,7 @@ p {
     color: rgb(243, 32, 32);
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 100px;
 }
